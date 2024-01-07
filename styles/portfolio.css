@@ -135,6 +135,23 @@ main section {
     text-align: center;
 }
 
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    
+   
+}
+
+.info-description {
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
 /* what i do */
 
 #what-i-do {
@@ -211,11 +228,13 @@ footer {
 .footer-column {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
 
-.contact input[type="text"],.contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
